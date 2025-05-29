@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0360120E2D3E957900BD36F7 /* AdminLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360120D2D3E956A00BD36F7 /* AdminLoginResponse.swift */; };
+		039D79282D3FAEFC00A92D38 /* CreateProfessorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039D79272D3FAEE000A92D38 /* CreateProfessorResponse.swift */; };
+		03F772E12D3B73330015D232 /* ProfessorLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F772E02D3B73330015D232 /* ProfessorLoginResponse.swift */; };
+		5D05B7E72D4C9E5F00EE5345 /* ProfessorProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05B7E62D4C9E5E00EE5345 /* ProfessorProfileModel.swift */; };
+		5D1B650B2D2D1DB700B50B95 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B650A2D2D1DB700B50B95 /* LoginResponse.swift */; };
+		5D1B650D2D2D293900B50B95 /* UIView Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B650C2D2D292F00B50B95 /* UIView Extension.swift */; };
+		5D1B65102D2D297000B50B95 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 5D1B650F2D2D297000B50B95 /* NVActivityIndicatorView */; };
+		5D1B65122D2D297000B50B95 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 5D1B65112D2D297000B50B95 /* NVActivityIndicatorViewExtended */; };
+		5D1B65142D2D2D9400B50B95 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B65132D2D2D9400B50B95 /* LoadingView.swift */; };
+		5D4947072D2E396D006224EB /* TopRatedProfessorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4947062D2E396D006224EB /* TopRatedProfessorModel.swift */; };
+		5D4947092D2E3E59006224EB /* TotalCountsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4947082D2E3E59006224EB /* TotalCountsModel.swift */; };
+		5D4C3C082D41FD3A00797726 /* ProfessorRatingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C3C072D41FD3A00797726 /* ProfessorRatingModel.swift */; };
+		5D4C3C0A2D421FED00797726 /* ProfessorReviewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C3C092D421FED00797726 /* ProfessorReviewsModel.swift */; };
+		5D993BB32D4B4A4F001F1637 /* StudentProfileDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D993BB22D4B4A4F001F1637 /* StudentProfileDataModel.swift */; };
+		5D993BB52D4B5876001F1637 /* BlockAndUnBlockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D993BB42D4B5876001F1637 /* BlockAndUnBlockModel.swift */; };
+		5D993BB72D4B85A5001F1637 /* CreateProfessorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D993BB62D4B85A5001F1637 /* CreateProfessorModel.swift */; };
+		5DD1F1272D40A493006C2C84 /* GetProfessorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1F1262D40A493006C2C84 /* GetProfessorData.swift */; };
+		5DE1EDCA2D2CEFC7007DD9C5 /* APIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1EDC92D2CEFC7007DD9C5 /* APIWrapper.swift */; };
+		5DE1EDCC2D2D1B13007DD9C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1EDCB2D2D1B13007DD9C5 /* Constants.swift */; };
+		5DEB78A82D44A82D00BCDA93 /* RatingResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB78A72D44A82C00BCDA93 /* RatingResponseModel.swift */; };
+		5DEB78AA2D44B5DC00BCDA93 /* FeedBackResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB78A92D44B5DC00BCDA93 /* FeedBackResponseModel.swift */; };
+		5DEB78AC2D44D5D500BCDA93 /* StudentProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB78AB2D44D5D500BCDA93 /* StudentProfileModel.swift */; };
+		B7223AB12D1955E900DC6651 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7223AB02D1955E900DC6651 /* Feedback.swift */; };
+		B7223AB32D19579F00DC6651 /* SingleProfessorFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7223AB22D19579F00DC6651 /* SingleProfessorFeedback.swift */; };
+		B7223AB52D195D6300DC6651 /* ThankYouForRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7223AB42D195D6300DC6651 /* ThankYouForRating.swift */; };
+		B772D3B42D06F3870029959E /* RateMyProfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772D3B32D06F3870029959E /* RateMyProfApp.swift */; };
+		B772D3B62D06F3870029959E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772D3B52D06F3870029959E /* ContentView.swift */; };
+		B772D3B82D06F3880029959E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B772D3B72D06F3880029959E /* Assets.xcassets */; };
+		B772D3BB2D06F3880029959E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B772D3BA2D06F3880029959E /* Preview Assets.xcassets */; };
+		B772D3C52D06F3880029959E /* RateMyProfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772D3C42D06F3880029959E /* RateMyProfTests.swift */; };
+		B772D3CF2D06F3880029959E /* RateMyProfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772D3CE2D06F3880029959E /* RateMyProfUITests.swift */; };
+		B772D3D12D06F3880029959E /* RateMyProfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772D3D02D06F3880029959E /* RateMyProfUITestsLaunchTests.swift */; };
+		B78DF0A12D1FB32600A7FC92 /* ProfessorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78DF0A02D1FB32600A7FC92 /* ProfessorData.swift */; };
+		B798A4E22D0AAECB0029E8E8 /* ChooseUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798A4E12D0AAECB0029E8E8 /* ChooseUserView.swift */; };
+		B798A4E62D0ABA3E0029E8E8 /* StudentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798A4E52D0ABA3E0029E8E8 /* StudentLoginView.swift */; };
+		B798A4E82D0ABC8C0029E8E8 /* ProfessorLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798A4E72D0ABC8C0029E8E8 /* ProfessorLoginView.swift */; };
+		B798A4EA2D0ABCD60029E8E8 /* AdminLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798A4E92D0ABCD60029E8E8 /* AdminLoginView.swift */; };
+		B7AA52A52D127AE2001D6A3D /* RatingPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA52A42D127AE2001D6A3D /* RatingPage1.swift */; };
+		B7ACB4AC2D1130290063F948 /* StudentCollegeSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACB4AB2D1130290063F948 /* StudentCollegeSelection.swift */; };
+		B7ACB4AE2D11545B0063F948 /* StudentRatingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACB4AD2D11545B0063F948 /* StudentRatingList.swift */; };
+		B7ACB4B02D116B080063F948 /* SingleProfessorRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACB4AF2D116B080063F948 /* SingleProfessorRate.swift */; };
+		B7B3A8D22D0C00E700377126 /* StudentHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3A8D12D0C00E700377126 /* StudentHomePage.swift */; };
+		B7BAD7E72D0D37B300D9829C /* HomepageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BAD7E62D0D37B300D9829C /* HomepageButton.swift */; };
+		B7BAD7E92D0D43CB00D9829C /* AdminHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BAD7E82D0D43CB00D9829C /* AdminHomePage.swift */; };
+		B7BAD7EB2D0D47BB00D9829C /* ProfessorHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BAD7EA2D0D47BB00D9829C /* ProfessorHomePage.swift */; };
+		B7BAD7ED2D0D4AB200D9829C /* ProfessorMyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BAD7EC2D0D4AB200D9829C /* ProfessorMyProfile.swift */; };
+		B7C6C97F2D1D0DBB00D63BAF /* StudentManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C97E2D1D0DBB00D63BAF /* StudentManagement.swift */; };
+		B7C6C9812D1D115200D63BAF /* StudentSingleProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C9802D1D115200D63BAF /* StudentSingleProfile.swift */; };
+		B7C6C9832D1D142B00D63BAF /* StudentMyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C9822D1D142B00D63BAF /* StudentMyProfile.swift */; };
+		B7C6C9852D1D205200D63BAF /* AdminStudentProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C9842D1D205200D63BAF /* AdminStudentProfile.swift */; };
+		B7C6C9872D1D328100D63BAF /* SingleAdminProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C9862D1D328100D63BAF /* SingleAdminProfessor.swift */; };
+		B7C6C9892D1D34CA00D63BAF /* AdminProfessorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C9882D1D34CA00D63BAF /* AdminProfessorList.swift */; };
+		B7C6C98B2D1D49D000D63BAF /* AdminProfessorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C98A2D1D49D000D63BAF /* AdminProfessorView.swift */; };
+		B7CF23252D0FCFF5009DE292 /* ProfessorRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF23242D0FCFF5009DE292 /* ProfessorRatings.swift */; };
+		B7CF23272D0FE90F009DE292 /* RatingStarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF23262D0FE90F009DE292 /* RatingStarImage.swift */; };
+		B7CF23292D0FF8AA009DE292 /* RatingDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF23282D0FF8AA009DE292 /* RatingDistributionView.swift */; };
+		B7CF232B2D101CB4009DE292 /* SingleReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF232A2D101CB4009DE292 /* SingleReviewView.swift */; };
+		B7CF232D2D102109009DE292 /* ProfessorReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF232C2D102109009DE292 /* ProfessorReviews.swift */; };
+		B7FD30502D1AA7E500338D4A /* CreateNewProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD304F2D1AA7E500338D4A /* CreateNewProfessor.swift */; };
+		B7FD30522D1AAD1100338D4A /* ProfessorUsernamePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD30512D1AAD1100338D4A /* ProfessorUsernamePassword.swift */; };
+		B7FD30542D1AAF5F00338D4A /* ProfessorCreatedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD30532D1AAF5F00338D4A /* ProfessorCreatedMessage.swift */; };
+		B7FD30562D1AB02A00338D4A /* CreateNewStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD30552D1AB02A00338D4A /* CreateNewStudent.swift */; };
+		B7FD30582D1AB2C400338D4A /* StudentUsernamePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD30572D1AB2C400338D4A /* StudentUsernamePassword.swift */; };
+		B7FD305A2D1AB31400338D4A /* StudentCreatedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD30592D1AB31400338D4A /* StudentCreatedMessage.swift */; };
+		B7FD305C2D1AB87900338D4A /* ProfessorManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD305B2D1AB87900338D4A /* ProfessorManagement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B772D3C12D06F3880029959E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B772D3A82D06F3870029959E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B772D3AF2D06F3870029959E;
+			remoteInfo = RateMyProf;
+		};
+		B772D3CB2D06F3880029959E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B772D3A82D06F3870029959E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B772D3AF2D06F3870029959E;
+			remoteInfo = RateMyProf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0360120D2D3E956A00BD36F7 /* AdminLoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginResponse.swift; sourceTree = "<group>"; };
+		039D79272D3FAEE000A92D38 /* CreateProfessorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfessorResponse.swift; sourceTree = "<group>"; };
+		03F772E02D3B73330015D232 /* ProfessorLoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorLoginResponse.swift; sourceTree = "<group>"; };
+		5D05B7E62D4C9E5E00EE5345 /* ProfessorProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorProfileModel.swift; sourceTree = "<group>"; };
+		5D1B650A2D2D1DB700B50B95 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		5D1B650C2D2D292F00B50B95 /* UIView Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView Extension.swift"; sourceTree = "<group>"; };
+		5D1B65132D2D2D9400B50B95 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5D4947062D2E396D006224EB /* TopRatedProfessorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedProfessorModel.swift; sourceTree = "<group>"; };
+		5D4947082D2E3E59006224EB /* TotalCountsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCountsModel.swift; sourceTree = "<group>"; };
+		5D4C3C072D41FD3A00797726 /* ProfessorRatingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorRatingModel.swift; sourceTree = "<group>"; };
+		5D4C3C092D421FED00797726 /* ProfessorReviewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorReviewsModel.swift; sourceTree = "<group>"; };
+		5D993BB22D4B4A4F001F1637 /* StudentProfileDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileDataModel.swift; sourceTree = "<group>"; };
+		5D993BB42D4B5876001F1637 /* BlockAndUnBlockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockAndUnBlockModel.swift; sourceTree = "<group>"; };
+		5D993BB62D4B85A5001F1637 /* CreateProfessorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfessorModel.swift; sourceTree = "<group>"; };
+		5DA54CDC2D92BCEA008D32D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5DD1F1262D40A493006C2C84 /* GetProfessorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProfessorData.swift; sourceTree = "<group>"; };
+		5DE1EDC92D2CEFC7007DD9C5 /* APIWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWrapper.swift; sourceTree = "<group>"; };
+		5DE1EDCB2D2D1B13007DD9C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5DEB78A72D44A82C00BCDA93 /* RatingResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingResponseModel.swift; sourceTree = "<group>"; };
+		5DEB78A92D44B5DC00BCDA93 /* FeedBackResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackResponseModel.swift; sourceTree = "<group>"; };
+		5DEB78AB2D44D5D500BCDA93 /* StudentProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileModel.swift; sourceTree = "<group>"; };
+		B7223AB02D1955E900DC6651 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		B7223AB22D19579F00DC6651 /* SingleProfessorFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProfessorFeedback.swift; sourceTree = "<group>"; };
+		B7223AB42D195D6300DC6651 /* ThankYouForRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouForRating.swift; sourceTree = "<group>"; };
+		B772D3B02D06F3870029959E /* RateMyProf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateMyProf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B772D3B32D06F3870029959E /* RateMyProfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyProfApp.swift; sourceTree = "<group>"; };
+		B772D3B52D06F3870029959E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B772D3B72D06F3880029959E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B772D3BA2D06F3880029959E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B772D3C02D06F3880029959E /* RateMyProfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateMyProfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B772D3C42D06F3880029959E /* RateMyProfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyProfTests.swift; sourceTree = "<group>"; };
+		B772D3CA2D06F3880029959E /* RateMyProfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateMyProfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B772D3CE2D06F3880029959E /* RateMyProfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyProfUITests.swift; sourceTree = "<group>"; };
+		B772D3D02D06F3880029959E /* RateMyProfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateMyProfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B78DF0A02D1FB32600A7FC92 /* ProfessorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorData.swift; sourceTree = "<group>"; };
+		B798A4E12D0AAECB0029E8E8 /* ChooseUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseUserView.swift; sourceTree = "<group>"; };
+		B798A4E52D0ABA3E0029E8E8 /* StudentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginView.swift; sourceTree = "<group>"; };
+		B798A4E72D0ABC8C0029E8E8 /* ProfessorLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorLoginView.swift; sourceTree = "<group>"; };
+		B798A4E92D0ABCD60029E8E8 /* AdminLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginView.swift; sourceTree = "<group>"; };
+		B7AA52A42D127AE2001D6A3D /* RatingPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingPage1.swift; sourceTree = "<group>"; };
+		B7ACB4AB2D1130290063F948 /* StudentCollegeSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCollegeSelection.swift; sourceTree = "<group>"; };
+		B7ACB4AD2D11545B0063F948 /* StudentRatingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRatingList.swift; sourceTree = "<group>"; };
+		B7ACB4AF2D116B080063F948 /* SingleProfessorRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProfessorRate.swift; sourceTree = "<group>"; };
+		B7B3A8D12D0C00E700377126 /* StudentHomePage.swift */ = {isa = PBXFileReference; indentWidth = 1; lastKnownFileType = sourcecode.swift; path = StudentHomePage.swift; sourceTree = "<group>"; };
+		B7BAD7E62D0D37B300D9829C /* HomepageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageButton.swift; sourceTree = "<group>"; };
+		B7BAD7E82D0D43CB00D9829C /* AdminHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomePage.swift; sourceTree = "<group>"; };
+		B7BAD7EA2D0D47BB00D9829C /* ProfessorHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorHomePage.swift; sourceTree = "<group>"; };
+		B7BAD7EC2D0D4AB200D9829C /* ProfessorMyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorMyProfile.swift; sourceTree = "<group>"; };
+		B7C6C97E2D1D0DBB00D63BAF /* StudentManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentManagement.swift; sourceTree = "<group>"; };
+		B7C6C9802D1D115200D63BAF /* StudentSingleProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSingleProfile.swift; sourceTree = "<group>"; };
+		B7C6C9822D1D142B00D63BAF /* StudentMyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMyProfile.swift; sourceTree = "<group>"; };
+		B7C6C9842D1D205200D63BAF /* AdminStudentProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminStudentProfile.swift; sourceTree = "<group>"; };
+		B7C6C9862D1D328100D63BAF /* SingleAdminProfessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAdminProfessor.swift; sourceTree = "<group>"; };
+		B7C6C9882D1D34CA00D63BAF /* AdminProfessorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProfessorList.swift; sourceTree = "<group>"; };
+		B7C6C98A2D1D49D000D63BAF /* AdminProfessorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProfessorView.swift; sourceTree = "<group>"; };
+		B7CF23242D0FCFF5009DE292 /* ProfessorRatings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorRatings.swift; sourceTree = "<group>"; };
+		B7CF23262D0FE90F009DE292 /* RatingStarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStarImage.swift; sourceTree = "<group>"; };
+		B7CF23282D0FF8AA009DE292 /* RatingDistributionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingDistributionView.swift; sourceTree = "<group>"; };
+		B7CF232A2D101CB4009DE292 /* SingleReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleReviewView.swift; sourceTree = "<group>"; };
+		B7CF232C2D102109009DE292 /* ProfessorReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorReviews.swift; sourceTree = "<group>"; };
+		B7FD304F2D1AA7E500338D4A /* CreateNewProfessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewProfessor.swift; sourceTree = "<group>"; };
+		B7FD30512D1AAD1100338D4A /* ProfessorUsernamePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorUsernamePassword.swift; sourceTree = "<group>"; };
+		B7FD30532D1AAF5F00338D4A /* ProfessorCreatedMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorCreatedMessage.swift; sourceTree = "<group>"; };
+		B7FD30552D1AB02A00338D4A /* CreateNewStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewStudent.swift; sourceTree = "<group>"; };
+		B7FD30572D1AB2C400338D4A /* StudentUsernamePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUsernamePassword.swift; sourceTree = "<group>"; };
+		B7FD30592D1AB31400338D4A /* StudentCreatedMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCreatedMessage.swift; sourceTree = "<group>"; };
+		B7FD305B2D1AB87900338D4A /* ProfessorManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorManagement.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B772D3AD2D06F3870029959E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1B65102D2D297000B50B95 /* NVActivityIndicatorView in Frameworks */,
+				5D1B65122D2D297000B50B95 /* NVActivityIndicatorViewExtended in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772D3BD2D06F3880029959E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772D3C72D06F3880029959E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030F1E142D4B257F0092514B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D993BB62D4B85A5001F1637 /* CreateProfessorModel.swift */,
+				5D993BB42D4B5876001F1637 /* BlockAndUnBlockModel.swift */,
+				5D993BB22D4B4A4F001F1637 /* StudentProfileDataModel.swift */,
+				039D79272D3FAEE000A92D38 /* CreateProfessorResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		036BA0EA2D2A78A10091292F /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				030F1E142D4B257F0092514B /* Model */,
+				B798A4E92D0ABCD60029E8E8 /* AdminLoginView.swift */,
+				B7BAD7E82D0D43CB00D9829C /* AdminHomePage.swift */,
+				B7FD304F2D1AA7E500338D4A /* CreateNewProfessor.swift */,
+				B7FD30512D1AAD1100338D4A /* ProfessorUsernamePassword.swift */,
+				B7FD30532D1AAF5F00338D4A /* ProfessorCreatedMessage.swift */,
+				B7FD30552D1AB02A00338D4A /* CreateNewStudent.swift */,
+				B7FD30572D1AB2C400338D4A /* StudentUsernamePassword.swift */,
+				B7FD30592D1AB31400338D4A /* StudentCreatedMessage.swift */,
+				B7FD305B2D1AB87900338D4A /* ProfessorManagement.swift */,
+				B7C6C9882D1D34CA00D63BAF /* AdminProfessorList.swift */,
+				B7C6C98A2D1D49D000D63BAF /* AdminProfessorView.swift */,
+				B7C6C97E2D1D0DBB00D63BAF /* StudentManagement.swift */,
+				B7C6C9842D1D205200D63BAF /* AdminStudentProfile.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		036BA0EB2D2A7B270091292F /* Professor */ = {
+			isa = PBXGroup;
+			children = (
+				5D4C3C062D41FD3100797726 /* Model */,
+				B798A4E72D0ABC8C0029E8E8 /* ProfessorLoginView.swift */,
+				B7BAD7EA2D0D47BB00D9829C /* ProfessorHomePage.swift */,
+				B7CF23242D0FCFF5009DE292 /* ProfessorRatings.swift */,
+				B7CF232C2D102109009DE292 /* ProfessorReviews.swift */,
+				B7BAD7EC2D0D4AB200D9829C /* ProfessorMyProfile.swift */,
+			);
+			path = Professor;
+			sourceTree = "<group>";
+		};
+		03EF31CD2D28F54F00C519B8 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				5D1B65092D2D1D8F00B50B95 /* Model */,
+				B798A4E52D0ABA3E0029E8E8 /* StudentLoginView.swift */,
+				B7B3A8D12D0C00E700377126 /* StudentHomePage.swift */,
+				B7ACB4AB2D1130290063F948 /* StudentCollegeSelection.swift */,
+				B7ACB4AD2D11545B0063F948 /* StudentRatingList.swift */,
+				B7AA52A42D127AE2001D6A3D /* RatingPage1.swift */,
+				B7223AB02D1955E900DC6651 /* Feedback.swift */,
+				B7223AB42D195D6300DC6651 /* ThankYouForRating.swift */,
+				B7C6C9822D1D142B00D63BAF /* StudentMyProfile.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		5D1B65092D2D1D8F00B50B95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB78AB2D44D5D500BCDA93 /* StudentProfileModel.swift */,
+				5DEB78A92D44B5DC00BCDA93 /* FeedBackResponseModel.swift */,
+				5DEB78A72D44A82C00BCDA93 /* RatingResponseModel.swift */,
+				5DD1F1262D40A493006C2C84 /* GetProfessorData.swift */,
+				0360120D2D3E956A00BD36F7 /* AdminLoginResponse.swift */,
+				5D4947082D2E3E59006224EB /* TotalCountsModel.swift */,
+				03F772E02D3B73330015D232 /* ProfessorLoginResponse.swift */,
+				5D1B650A2D2D1DB700B50B95 /* LoginResponse.swift */,
+				5D4947062D2E396D006224EB /* TopRatedProfessorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D4C3C062D41FD3100797726 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D05B7E62D4C9E5E00EE5345 /* ProfessorProfileModel.swift */,
+				5D4C3C092D421FED00797726 /* ProfessorReviewsModel.swift */,
+				5D4C3C072D41FD3A00797726 /* ProfessorRatingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DE1EDC82D2CEF9B007DD9C5 /* APIWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				5DE1EDC92D2CEFC7007DD9C5 /* APIWrapper.swift */,
+			);
+			path = APIWrapper;
+			sourceTree = "<group>";
+		};
+		B772D3A72D06F3870029959E = {
+			isa = PBXGroup;
+			children = (
+				B772D3B22D06F3870029959E /* RateMyProf */,
+				B772D3C32D06F3880029959E /* RateMyProfTests */,
+				B772D3CD2D06F3880029959E /* RateMyProfUITests */,
+				B772D3B12D06F3870029959E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B772D3B12D06F3870029959E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B772D3B02D06F3870029959E /* RateMyProf.app */,
+				B772D3C02D06F3880029959E /* RateMyProfTests.xctest */,
+				B772D3CA2D06F3880029959E /* RateMyProfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B772D3B22D06F3870029959E /* RateMyProf */ = {
+			isa = PBXGroup;
+			children = (
+				5DA54CDC2D92BCEA008D32D6 /* Info.plist */,
+				5DE1EDCB2D2D1B13007DD9C5 /* Constants.swift */,
+				5DE1EDC82D2CEF9B007DD9C5 /* APIWrapper */,
+				03EF31CD2D28F54F00C519B8 /* Student */,
+				036BA0EB2D2A7B270091292F /* Professor */,
+				036BA0EA2D2A78A10091292F /* Admin */,
+				B7223AB22D19579F00DC6651 /* SingleProfessorFeedback.swift */,
+				B7ACB4AF2D116B080063F948 /* SingleProfessorRate.swift */,
+				B78DF0A02D1FB32600A7FC92 /* ProfessorData.swift */,
+				B7C6C9862D1D328100D63BAF /* SingleAdminProfessor.swift */,
+				B7C6C9802D1D115200D63BAF /* StudentSingleProfile.swift */,
+				B772D3B32D06F3870029959E /* RateMyProfApp.swift */,
+				B798A4E12D0AAECB0029E8E8 /* ChooseUserView.swift */,
+				B772D3B52D06F3870029959E /* ContentView.swift */,
+				B7CF232A2D101CB4009DE292 /* SingleReviewView.swift */,
+				5D1B650C2D2D292F00B50B95 /* UIView Extension.swift */,
+				B7CF23282D0FF8AA009DE292 /* RatingDistributionView.swift */,
+				5D1B65132D2D2D9400B50B95 /* LoadingView.swift */,
+				B7CF23262D0FE90F009DE292 /* RatingStarImage.swift */,
+				B7BAD7E62D0D37B300D9829C /* HomepageButton.swift */,
+				B772D3B72D06F3880029959E /* Assets.xcassets */,
+				B772D3B92D06F3880029959E /* Preview Content */,
+			);
+			path = RateMyProf;
+			sourceTree = "<group>";
+		};
+		B772D3B92D06F3880029959E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B772D3BA2D06F3880029959E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B772D3C32D06F3880029959E /* RateMyProfTests */ = {
+			isa = PBXGroup;
+			children = (
+				B772D3C42D06F3880029959E /* RateMyProfTests.swift */,
+			);
+			path = RateMyProfTests;
+			sourceTree = "<group>";
+		};
+		B772D3CD2D06F3880029959E /* RateMyProfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B772D3CE2D06F3880029959E /* RateMyProfUITests.swift */,
+				B772D3D02D06F3880029959E /* RateMyProfUITestsLaunchTests.swift */,
+			);
+			path = RateMyProfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B772D3AF2D06F3870029959E /* RateMyProf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B772D3D42D06F3880029959E /* Build configuration list for PBXNativeTarget "RateMyProf" */;
+			buildPhases = (
+				B772D3AC2D06F3870029959E /* Sources */,
+				B772D3AD2D06F3870029959E /* Frameworks */,
+				B772D3AE2D06F3870029959E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RateMyProf;
+			productName = RateMyProf;
+			productReference = B772D3B02D06F3870029959E /* RateMyProf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B772D3BF2D06F3880029959E /* RateMyProfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B772D3D72D06F3880029959E /* Build configuration list for PBXNativeTarget "RateMyProfTests" */;
+			buildPhases = (
+				B772D3BC2D06F3880029959E /* Sources */,
+				B772D3BD2D06F3880029959E /* Frameworks */,
+				B772D3BE2D06F3880029959E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B772D3C22D06F3880029959E /* PBXTargetDependency */,
+			);
+			name = RateMyProfTests;
+			productName = RateMyProfTests;
+			productReference = B772D3C02D06F3880029959E /* RateMyProfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B772D3C92D06F3880029959E /* RateMyProfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B772D3DA2D06F3880029959E /* Build configuration list for PBXNativeTarget "RateMyProfUITests" */;
+			buildPhases = (
+				B772D3C62D06F3880029959E /* Sources */,
+				B772D3C72D06F3880029959E /* Frameworks */,
+				B772D3C82D06F3880029959E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B772D3CC2D06F3880029959E /* PBXTargetDependency */,
+			);
+			name = RateMyProfUITests;
+			productName = RateMyProfUITests;
+			productReference = B772D3CA2D06F3880029959E /* RateMyProfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B772D3A82D06F3870029959E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					B772D3AF2D06F3870029959E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					B772D3BF2D06F3880029959E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = B772D3AF2D06F3870029959E;
+					};
+					B772D3C92D06F3880029959E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = B772D3AF2D06F3870029959E;
+					};
+				};
+			};
+			buildConfigurationList = B772D3AB2D06F3870029959E /* Build configuration list for PBXProject "RateMyProf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B772D3A72D06F3870029959E;
+			packageReferences = (
+				5D1B650E2D2D297000B50B95 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
+			productRefGroup = B772D3B12D06F3870029959E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B772D3AF2D06F3870029959E /* RateMyProf */,
+				B772D3BF2D06F3880029959E /* RateMyProfTests */,
+				B772D3C92D06F3880029959E /* RateMyProfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B772D3AE2D06F3870029959E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B772D3BB2D06F3880029959E /* Preview Assets.xcassets in Resources */,
+				B772D3B82D06F3880029959E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772D3BE2D06F3880029959E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772D3C82D06F3880029959E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B772D3AC2D06F3870029959E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B798A4EA2D0ABCD60029E8E8 /* AdminLoginView.swift in Sources */,
+				B7BAD7E72D0D37B300D9829C /* HomepageButton.swift in Sources */,
+				5D993BB52D4B5876001F1637 /* BlockAndUnBlockModel.swift in Sources */,
+				5D1B650B2D2D1DB700B50B95 /* LoginResponse.swift in Sources */,
+				B798A4E62D0ABA3E0029E8E8 /* StudentLoginView.swift in Sources */,
+				5D4947092D2E3E59006224EB /* TotalCountsModel.swift in Sources */,
+				B7FD30542D1AAF5F00338D4A /* ProfessorCreatedMessage.swift in Sources */,
+				5D993BB32D4B4A4F001F1637 /* StudentProfileDataModel.swift in Sources */,
+				B7C6C9892D1D34CA00D63BAF /* AdminProfessorList.swift in Sources */,
+				B7223AB12D1955E900DC6651 /* Feedback.swift in Sources */,
+				B798A4E22D0AAECB0029E8E8 /* ChooseUserView.swift in Sources */,
+				B7FD30522D1AAD1100338D4A /* ProfessorUsernamePassword.swift in Sources */,
+				5D1B650D2D2D293900B50B95 /* UIView Extension.swift in Sources */,
+				5D05B7E72D4C9E5F00EE5345 /* ProfessorProfileModel.swift in Sources */,
+				B7C6C9852D1D205200D63BAF /* AdminStudentProfile.swift in Sources */,
+				B7ACB4AE2D11545B0063F948 /* StudentRatingList.swift in Sources */,
+				5DEB78A82D44A82D00BCDA93 /* RatingResponseModel.swift in Sources */,
+				B7FD30502D1AA7E500338D4A /* CreateNewProfessor.swift in Sources */,
+				B7C6C98B2D1D49D000D63BAF /* AdminProfessorView.swift in Sources */,
+				B7FD305C2D1AB87900338D4A /* ProfessorManagement.swift in Sources */,
+				B7CF232B2D101CB4009DE292 /* SingleReviewView.swift in Sources */,
+				B78DF0A12D1FB32600A7FC92 /* ProfessorData.swift in Sources */,
+				5DE1EDCC2D2D1B13007DD9C5 /* Constants.swift in Sources */,
+				B7ACB4B02D116B080063F948 /* SingleProfessorRate.swift in Sources */,
+				5D1B65142D2D2D9400B50B95 /* LoadingView.swift in Sources */,
+				5DE1EDCA2D2CEFC7007DD9C5 /* APIWrapper.swift in Sources */,
+				B7FD305A2D1AB31400338D4A /* StudentCreatedMessage.swift in Sources */,
+				B7223AB52D195D6300DC6651 /* ThankYouForRating.swift in Sources */,
+				5DEB78AC2D44D5D500BCDA93 /* StudentProfileModel.swift in Sources */,
+				03F772E12D3B73330015D232 /* ProfessorLoginResponse.swift in Sources */,
+				5D4947072D2E396D006224EB /* TopRatedProfessorModel.swift in Sources */,
+				B772D3B62D06F3870029959E /* ContentView.swift in Sources */,
+				B7ACB4AC2D1130290063F948 /* StudentCollegeSelection.swift in Sources */,
+				B7FD30582D1AB2C400338D4A /* StudentUsernamePassword.swift in Sources */,
+				B7BAD7E92D0D43CB00D9829C /* AdminHomePage.swift in Sources */,
+				039D79282D3FAEFC00A92D38 /* CreateProfessorResponse.swift in Sources */,
+				B772D3B42D06F3870029959E /* RateMyProfApp.swift in Sources */,
+				B7CF23292D0FF8AA009DE292 /* RatingDistributionView.swift in Sources */,
+				5DEB78AA2D44B5DC00BCDA93 /* FeedBackResponseModel.swift in Sources */,
+				B7CF232D2D102109009DE292 /* ProfessorReviews.swift in Sources */,
+				B7C6C9872D1D328100D63BAF /* SingleAdminProfessor.swift in Sources */,
+				B7C6C97F2D1D0DBB00D63BAF /* StudentManagement.swift in Sources */,
+				B7BAD7EB2D0D47BB00D9829C /* ProfessorHomePage.swift in Sources */,
+				B7CF23252D0FCFF5009DE292 /* ProfessorRatings.swift in Sources */,
+				B7CF23272D0FE90F009DE292 /* RatingStarImage.swift in Sources */,
+				5D4C3C0A2D421FED00797726 /* ProfessorReviewsModel.swift in Sources */,
+				5D993BB72D4B85A5001F1637 /* CreateProfessorModel.swift in Sources */,
+				B7BAD7ED2D0D4AB200D9829C /* ProfessorMyProfile.swift in Sources */,
+				5D4C3C082D41FD3A00797726 /* ProfessorRatingModel.swift in Sources */,
+				B7C6C9832D1D142B00D63BAF /* StudentMyProfile.swift in Sources */,
+				B7AA52A52D127AE2001D6A3D /* RatingPage1.swift in Sources */,
+				B7223AB32D19579F00DC6651 /* SingleProfessorFeedback.swift in Sources */,
+				0360120E2D3E957900BD36F7 /* AdminLoginResponse.swift in Sources */,
+				B7C6C9812D1D115200D63BAF /* StudentSingleProfile.swift in Sources */,
+				B7B3A8D22D0C00E700377126 /* StudentHomePage.swift in Sources */,
+				5DD1F1272D40A493006C2C84 /* GetProfessorData.swift in Sources */,
+				B7FD30562D1AB02A00338D4A /* CreateNewStudent.swift in Sources */,
+				B798A4E82D0ABC8C0029E8E8 /* ProfessorLoginView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772D3BC2D06F3880029959E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B772D3C52D06F3880029959E /* RateMyProfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772D3C62D06F3880029959E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B772D3CF2D06F3880029959E /* RateMyProfUITests.swift in Sources */,
+				B772D3D12D06F3880029959E /* RateMyProfUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B772D3C22D06F3880029959E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B772D3AF2D06F3870029959E /* RateMyProf */;
+			targetProxy = B772D3C12D06F3880029959E /* PBXContainerItemProxy */;
+		};
+		B772D3CC2D06F3880029959E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B772D3AF2D06F3870029959E /* RateMyProf */;
+			targetProxy = B772D3CB2D06F3880029959E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B772D3D22D06F3880029959E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B772D3D32D06F3880029959E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B772D3D52D06F3880029959E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"RateMyProf/Preview Content\"";
+				DEVELOPMENT_TEAM = U4KLJ47VG6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RateMyProf/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saveetha.RateMyProf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B772D3D62D06F3880029959E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"RateMyProf/Preview Content\"";
+				DEVELOPMENT_TEAM = U4KLJ47VG6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RateMyProf/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saveetha.RateMyProf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B772D3D82D06F3880029959E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saveetha.RateMyProfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RateMyProf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RateMyProf";
+			};
+			name = Debug;
+		};
+		B772D3D92D06F3880029959E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saveetha.RateMyProfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RateMyProf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RateMyProf";
+			};
+			name = Release;
+		};
+		B772D3DB2D06F3880029959E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saveetha.RateMyProfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RateMyProf;
+			};
+			name = Debug;
+		};
+		B772D3DC2D06F3880029959E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saveetha.RateMyProfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RateMyProf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B772D3AB2D06F3870029959E /* Build configuration list for PBXProject "RateMyProf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772D3D22D06F3880029959E /* Debug */,
+				B772D3D32D06F3880029959E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B772D3D42D06F3880029959E /* Build configuration list for PBXNativeTarget "RateMyProf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772D3D52D06F3880029959E /* Debug */,
+				B772D3D62D06F3880029959E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B772D3D72D06F3880029959E /* Build configuration list for PBXNativeTarget "RateMyProfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772D3D82D06F3880029959E /* Debug */,
+				B772D3D92D06F3880029959E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B772D3DA2D06F3880029959E /* Build configuration list for PBXNativeTarget "RateMyProfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772D3DB2D06F3880029959E /* Debug */,
+				B772D3DC2D06F3880029959E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D1B650E2D2D297000B50B95 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D1B650F2D2D297000B50B95 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D1B650E2D2D297000B50B95 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		5D1B65112D2D297000B50B95 /* NVActivityIndicatorViewExtended */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D1B650E2D2D297000B50B95 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorViewExtended;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B772D3A82D06F3870029959E /* Project object */;
+}

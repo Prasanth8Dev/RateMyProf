@@ -1,0 +1,45 @@
+{
+    "Status": true,
+    "Message": "Success",
+    "ProfileData": [
+        {
+            "ProfID": "12352",
+            "FirstName": "Unnikrishnan",
+            "LastName": "",
+            "Title": "Professor",
+            "University": "SCLAS",
+            "Dept": "MCA",
+            "Email": "unnikrishnan@example.com",
+            "PhnNo": "1234467890",
+            "Username": "Unnikrishnan",
+            "Password": "mypassword",
+            "ProfilePic": "uploads/677cb7cb07822_WhatsApp_Image_2025-01-02_at_18.00.25.jpeg"
+        },
+        {
+            "ProfID": "12353",
+            "FirstName": "Unnikrishnan0",
+            "LastName": "",
+            "Title": "Professor",
+            "University": "SCLAS",
+            "Dept": "MCA",
+            "Email": "unnikrishnan0@example.com",
+            "PhnNo": "1234467890",
+            "Username": "Unnikrishnan0",
+            "Password": "mypassword",
+            "ProfilePic": "uploads/677e09568e672_WhatsApp_Image_2025-01-02_at_18.00.25.jpeg"
+        },
+        {
+            "ProfID": "12354",
+            "FirstName": "Unnikrishnan0",
+            "LastName": "",
+            "Title": "Professor",
+            "University": "SCLAS",
+            "Dept": "MCA",
+            "Email": "unnikrishnan00000@example.com",
+            "PhnNo": "1234467890",
+            "Username": "Unnikrishnan00000",
+            "Password": "mypassword",
+            "ProfilePic": "uploads/678f73d9a1c06_WhatsApp_Image_2025-01-02_at_18.00.25.jpeg"
+        }
+    ]
+}
