@@ -14,8 +14,6 @@ struct RateMyProfApp: App {
             NavigationStack {
                 ContentView()
             }
-          
-            //StudentRatingList()
         }
     }
 }
